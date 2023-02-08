@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="title">Unit Converter</div>
+    </nav>
+
+    <div class="main">
+
+        <div class="conversionType">
+            <div class="convert_weight active" id="convert_weight">
+                weight
+            </div>
+            <div class="convert_temperature" id="convert_temperature">
+                Temperature
+            </div>
+            <div class="convert_length" id="convert_length">
+                Length
+            </div>
+        </div>
+
+        <div class="converter">
+
+            <div class="weightConverter" id="weight">
+                <div class="inner">
+                    <label for="kilograms">kilograms</label>
+                    <input type="number" name="kilograms" id="kilograms" placeholder="kilograms">
+                    <label for="grams">grams</label>
+                    <input type="number" name="grams" id="grams" placeholder="grams">
+                </div>
+                <div class="inner">
+                    <label for="pounds">pounds</label>
+                    <input type="number" name="pounds" id="pounds" placeholder="pounds">
+                    <label for="ounces">ounces</label>
+                    <input type="number" name="ounces" id="ounces" placeholder="ounces">
+                </div>
+            </div>
+
+
+            <div class="temperatureConverter" id="temp">
+                <label for="Celsius">Celsius</label>
+                <input type="number" name="Celsius" id="Celsius" placeholder="Celsius">
+                <label for="Fahrenheit">Fahrenheit</label>
+                <input type="number" name="Fahrenheit" id="Fahrenheit" placeholder="Fahrenheit">
+                <label for="Kelvin">Kelvin</label>
+                <input type="number" name="Kelvin" id="Kelvin" placeholder="Kelvin">
+            </div>
+
+
+            <div class="lengthConverter" id="length">
+                <div class="inner">
+                    <label for="Feet">Feet</label>
+                    <input type="number" name="Feet" id="Feet" placeholder="Feet">
+                    <label for="Meters">Meters</label>
+                    <input type="number" name="Meters" id="Meters" placeholder="Meters">
+                </div>
+                <div class="inner">
+                    <label for="Inches">Inches</label>
+                    <input type="number" name="Inches" id="Inches" placeholder="Inches">
+                    <label for="cm">cm</label>
+                    <input type="number" name="cm" id="cm" placeholder="cm">
+                </div>
+                <div class="inner">
+                    <label for="Yards">Yards</label>
+                    <input type="number" name="Yards" id="Yards" placeholder="Yards">
+                    <label for="Kilometers">Kilometers</label>
+                    <input type="number" name="Kilometers" id="Kilometers" placeholder="Kilometers">
+                </div>
+                <div>
+                    <label for="Miles">Miles</label>
+                    <input type="number" name="Miles" id="Miles" placeholder="Miles">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Made by Pranav Gaikwad</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
